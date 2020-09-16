@@ -1,0 +1,15 @@
+# __author__ = "Kai Qi (QiaoJianYe)"
+# __email___ = "upcqikai@hotmail.com"
+# __time____ = "2020.09.15"
+
+#This code simulate markov switching on a state space S, using initial distribution mu, sojourn parameters lam, and jump matrix Q.
+
+#It can simulate a Stochastic Differnetial Equcations with markov switching， more details in https://github.com/QiaoJianYe.
+
+#Change the jump matrix Q and state space S to generate different kinds of data
+
+#You can find all the details that you need in this paper:
+
+Kai Qi and Daqing Jiang, Threshold behavior in a stochastic HTLV-I infection model with CTL immune response and regime switching.
+Mathematical Methods in the Applied Sciences, 41 (2018) 6866-6882.
+(see https://onlinelibrary.wiley.com/doi/full/10.1002/mma.5198)
