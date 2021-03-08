@@ -28,8 +28,8 @@ def rand_from_a_dis(p):
 
 def Markov_generate():
 
-    S=[1, 2, 3]    #state space
-    T_max=1000    #maximum time
+    S = [1, 2, 3]    #state space
+    T_max = 1000    #maximum time
 
     mu = [0,0,1]    #initial distribution
     lam = [0.1, 0.1, 0.1]   #sojourn parameters 
@@ -62,7 +62,7 @@ def Markov_generate():
               y[i] = S[x[j]]
         t.append(t[i]+h)
 
-    y[N]=S[x[k]]
+    y[N] = S[x[k]]
 
     plt.plot(t,  y )
     plt.ylim(-1, 5)
